@@ -15,6 +15,7 @@ A main folder with grunt task for compiling your app to an '.exe'/'.app'/...
 ```
 grunt build
 ```
+Compiling the application with src in app/nwApp folder
 
 Go to build folder > releases > [app_name] > [platforme] > [app_name]
 
@@ -29,6 +30,7 @@ Grunt tasks dedicated to my application
 ```
 grunt buildApp
 ```
+Copy src files in 'nwApp folder'
 
 How to use
 ---
@@ -46,3 +48,12 @@ grunt build
 ```
 
 And Go to build folder > releases > nodeapp > win > nodeapp > nodeapp.exe
+
+Node Require && RequireJs Require
+---
+
+Go to app/src/assets/index.html (redefine 'require' node method to 'requireNode')
+
+&& 
+
+app/src/scripts/application.js (node require)
