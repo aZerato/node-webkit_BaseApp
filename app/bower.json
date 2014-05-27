@@ -1,0 +1,20 @@
+{
+  "name": "nodeapp",
+  "version": "0.0.1",
+  "authors": [
+    "aZerato <azerato.graphe@gmail.com>"
+  ],
+  "main": "Gruntfile.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "requirejs": "~2.1.12"
+  }
+}

@@ -1,0 +1,23 @@
+window.requireNode = require;
+window.require = undefined;
+
+var gui = require('nw.gui');
+
+// Basic require configuration
+requirejs.config({
+	baseUrl: './scripts/',
+	paths: {
+		'jquery': 'vendors/jquery'
+	}
+});
+
+// Require start !
+requirejs([
+	'jquery',
+	'application'
+	], function($, Application) {
+		$(document).ready(function() {
+			var application = new Application();
+			application.start(gui);
+		});
+});

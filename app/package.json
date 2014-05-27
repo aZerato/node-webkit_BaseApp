@@ -1,0 +1,11 @@
+{
+  "name": "nodeapp",
+  "version": "0.0.1",
+  "main": "nw/views/index.html",
+  "devDependencies": {
+    "bower": "~1.3.3",
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0"
+  }
+}

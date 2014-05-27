@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>NodeApp!</title>
+	<script type="text/javascript">
+		// Require conflict : Node Vs RequireJS
+		if (typeof(window.require) !== "undefined") {
+			window.requireNode = window.require;
+			window.require = undefined;
+		}
+	</script>
+	<script type="text/javascript" src="./scripts/vendors/require.js" data-main="./scripts/require-config.js"></script>
+</head>
+<body>
+	<h1 >Hello World on your first Node Webkit Application !</h1>
+</body>
+</html>
