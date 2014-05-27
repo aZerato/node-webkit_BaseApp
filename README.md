@@ -1,7 +1,7 @@
 NodeWebkit Application
 ===
 
-Base to create your nodewekit application.
+Base to create your nodewebkit application.
 With grunt task for compilation to an executable application.
 
 The sample application use RequireJS && the require node method !!
@@ -35,8 +35,7 @@ Copy src files in 'nwApp folder'
 How to use
 ---
 
-For this sample you to run your fav CLI,
-Type:
+For this sample you launch your fav CLI, and type:
 ```
 npm install
 cd app
